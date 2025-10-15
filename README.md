@@ -9,10 +9,7 @@ A ripple carry adder is a simple method to build a multi-bit binary adder by cha
 * This continues until the most significant bit (MSB) adder, which outputs S3 and Cout.
 * Thus the carry “ripples” from the LSB stage to the MSB stage.
 
-   |A0  B0  Cin → FA → S0, C1|
-   |A1  B1  C1  → FA → S1, C2|
-   |A2  B2  C2  → FA → S2, C3|
-   |A3  B3  C3  → FA → S3, Cout|
+ 
 -----
 ## Advantages
 * Simplicity — The design is straightforward and easy to understand.
